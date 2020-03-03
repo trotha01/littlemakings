@@ -5284,6 +5284,7 @@ var $elm$core$Maybe$map = F2(
 			return $elm$core$Maybe$Nothing;
 		}
 	});
+var $author$project$Main$assetPrefix = '/littlemakings/assets/';
 var $elm$html$Html$div = _VirtualDom_node('div');
 var $elm$html$Html$img = _VirtualDom_node('img');
 var $elm$json$Json$Encode$string = _Json_wrap;
@@ -5393,9 +5394,9 @@ var $author$project$Main$viewHeader = function (model) {
 		_List_fromArray(
 			[
 				$author$project$Main$viewLogo,
-				A3($author$project$Main$headerIcon, model, '/assets/bow.svg', '/bows'),
-				A3($author$project$Main$headerIcon, model, '/assets/canvas.svg', '/canvas'),
-				A3($author$project$Main$headerIcon, model, '/assets/sign.svg', '/signs')
+				A3($author$project$Main$headerIcon, model, $author$project$Main$assetPrefix + 'bow.svg', '/bows'),
+				A3($author$project$Main$headerIcon, model, $author$project$Main$assetPrefix + 'canvas.svg', '/canvas'),
+				A3($author$project$Main$headerIcon, model, $author$project$Main$assetPrefix + 'sign.svg', '/signs')
 			]));
 };
 var $author$project$Main$viewBows = function (model) {
@@ -5404,7 +5405,7 @@ var $author$project$Main$viewBows = function (model) {
 			$author$project$Main$viewHeader(model),
 			$author$project$Main$viewGallery(
 			_List_fromArray(
-				['/assets/bow1.webp', '/assets/bow2.webp', '/assets/bow3.webp', '/assets/bow4.webp', '/assets/bow6.webp', '/assets/bow7.webp', '/assets/bow8.webp', '/assets/bow9.webp', '/assets/bow10.webp', '/assets/bow11.webp', '/assets/bow12.webp', '/assets/bow13.webp', '/assets/bow14.webp']))
+				[$author$project$Main$assetPrefix + 'bow1.webp', $author$project$Main$assetPrefix + 'bow2.webp', $author$project$Main$assetPrefix + 'bow3.webp', $author$project$Main$assetPrefix + 'bow4.webp', $author$project$Main$assetPrefix + 'bow6.webp', $author$project$Main$assetPrefix + 'bow7.webp', $author$project$Main$assetPrefix + 'bow8.webp', $author$project$Main$assetPrefix + 'bow9.webp', $author$project$Main$assetPrefix + 'bow10.webp', $author$project$Main$assetPrefix + 'bow11.webp', $author$project$Main$assetPrefix + 'bow12.webp', $author$project$Main$assetPrefix + 'bow13.webp', $author$project$Main$assetPrefix + 'bow14.webp']))
 		]);
 };
 var $author$project$Main$viewCanvas = function (model) {
@@ -5413,7 +5414,7 @@ var $author$project$Main$viewCanvas = function (model) {
 			$author$project$Main$viewHeader(model),
 			$author$project$Main$viewGallery(
 			_List_fromArray(
-				['/assets/canvas1.webp', '/assets/canvas2.webp', '/assets/canvas3.webp', '/assets/canvas4.webp', '/assets/canvas5.webp']))
+				[$author$project$Main$assetPrefix + 'canvas1.webp', $author$project$Main$assetPrefix + 'canvas2.webp', $author$project$Main$assetPrefix + 'canvas3.webp', $author$project$Main$assetPrefix + 'canvas4.webp', $author$project$Main$assetPrefix + 'canvas5.webp']))
 		]);
 };
 var $elm$html$Html$h2 = _VirtualDom_node('h2');
@@ -5502,7 +5503,7 @@ var $author$project$Main$viewFullLogoBanner = A2(
 					$elm$html$Html$source,
 					_List_fromArray(
 						[
-							$elm$html$Html$Attributes$src('/assets/car.mp4')
+							$elm$html$Html$Attributes$src($author$project$Main$assetPrefix + 'car.mp4')
 						]),
 					_List_Nil)
 				])),
@@ -5539,9 +5540,9 @@ var $author$project$Main$viewHome = function (model) {
 		[
 			$author$project$Main$viewHeader(model),
 			$author$project$Main$viewFullLogoBanner,
-			A3($author$project$Main$viewBanner, '/assets/bow.webp', 'Bows', '/bows'),
-			A3($author$project$Main$viewBanner, '/assets/canvas.webp', 'Canvas', '/canvas'),
-			A3($author$project$Main$viewBanner, '/assets/sign.webp', 'Signs', '/signs')
+			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'bow.webp', 'Bows', '/bows'),
+			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'canvas.webp', 'Canvas', '/canvas'),
+			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'sign.webp', 'Signs', '/signs')
 		]);
 };
 var $author$project$Main$viewSigns = function (model) {
@@ -5550,7 +5551,7 @@ var $author$project$Main$viewSigns = function (model) {
 			$author$project$Main$viewHeader(model),
 			$author$project$Main$viewGallery(
 			_List_fromArray(
-				['/assets/sign1.webp', '/assets/sign2.webp', '/assets/sign3.webp', '/assets/sign4.webp']))
+				[$author$project$Main$assetPrefix + 'sign1.webp', $author$project$Main$assetPrefix + 'sign2.webp', $author$project$Main$assetPrefix + 'sign3.webp', $author$project$Main$assetPrefix + 'sign4.webp']))
 		]);
 };
 var $author$project$Main$pages = _List_fromArray(
