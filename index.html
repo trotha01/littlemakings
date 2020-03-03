@@ -5394,9 +5394,9 @@ var $author$project$Main$viewHeader = function (model) {
 		_List_fromArray(
 			[
 				$author$project$Main$viewLogo,
-				A3($author$project$Main$headerIcon, model, $author$project$Main$assetPrefix + 'bow.svg', '/bows'),
-				A3($author$project$Main$headerIcon, model, $author$project$Main$assetPrefix + 'canvas.svg', '/canvas'),
-				A3($author$project$Main$headerIcon, model, $author$project$Main$assetPrefix + 'sign.svg', '/signs')
+				A3($author$project$Main$headerIcon, model, $author$project$Main$assetPrefix + 'bow.svg', '/littlemakings/bows'),
+				A3($author$project$Main$headerIcon, model, $author$project$Main$assetPrefix + 'canvas.svg', '/littlemakings/canvas'),
+				A3($author$project$Main$headerIcon, model, $author$project$Main$assetPrefix + 'sign.svg', '/littlemakings/signs')
 			]));
 };
 var $author$project$Main$viewBows = function (model) {
@@ -5540,9 +5540,9 @@ var $author$project$Main$viewHome = function (model) {
 		[
 			$author$project$Main$viewHeader(model),
 			$author$project$Main$viewFullLogoBanner,
-			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'bow.webp', 'Bows', '/bows'),
-			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'canvas.webp', 'Canvas', '/canvas'),
-			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'sign.webp', 'Signs', '/signs')
+			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'bow.webp', 'Bows', '/littlemakings/bows'),
+			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'canvas.webp', 'Canvas', '/littlemakings/canvas'),
+			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'sign.webp', 'Signs', '/littlemakings/signs')
 		]);
 };
 var $author$project$Main$viewSigns = function (model) {
@@ -5556,10 +5556,10 @@ var $author$project$Main$viewSigns = function (model) {
 };
 var $author$project$Main$pages = _List_fromArray(
 	[
-		{title: 'Home', url: '/main', view: $author$project$Main$viewHome},
-		{title: 'Bows', url: '/bows', view: $author$project$Main$viewBows},
-		{title: 'Canvas', url: '/canvas', view: $author$project$Main$viewCanvas},
-		{title: 'Signs', url: '/signs', view: $author$project$Main$viewSigns}
+		{title: 'Home', url: '/littlemakings/main', view: $author$project$Main$viewHome},
+		{title: 'Bows', url: '/littlemakings/bows', view: $author$project$Main$viewBows},
+		{title: 'Canvas', url: '/littlemakings/canvas', view: $author$project$Main$viewCanvas},
+		{title: 'Signs', url: '/littlemakings/signs', view: $author$project$Main$viewSigns}
 	]);
 var $elm$core$Maybe$withDefault = F2(
 	function (_default, maybe) {

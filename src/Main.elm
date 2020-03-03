@@ -94,10 +94,10 @@ type alias Page =
 
 pages : List Page
 pages =
-    [ { title = "Home", url = "/main", view = viewHome }
-    , { title = "Bows", url = "/bows", view = viewBows }
-    , { title = "Canvas", url = "/canvas", view = viewCanvas }
-    , { title = "Signs", url = "/signs", view = viewSigns }
+    [ { title = "Home", url = "/littlemakings/main", view = viewHome }
+    , { title = "Bows", url = "/littlemakings/bows", view = viewBows }
+    , { title = "Canvas", url = "/littlemakings/canvas", view = viewCanvas }
+    , { title = "Signs", url = "/littlemakings/signs", view = viewSigns }
     ]
 
 
@@ -121,9 +121,9 @@ viewHome : Model -> List (Html Msg)
 viewHome model =
     [ viewHeader model
     , viewFullLogoBanner
-    , viewBanner (assetPrefix ++ "bow.webp") "Bows" "/bows"
-    , viewBanner (assetPrefix ++ "canvas.webp") "Canvas" "/canvas"
-    , viewBanner (assetPrefix ++ "sign.webp") "Signs" "/signs"
+    , viewBanner (assetPrefix ++ "bow.webp") "Bows" "/littlemakings/bows"
+    , viewBanner (assetPrefix ++ "canvas.webp") "Canvas" "/littlemakings/canvas"
+    , viewBanner (assetPrefix ++ "sign.webp") "Signs" "/littlemakings/signs"
     ]
 
 
@@ -191,9 +191,9 @@ viewHeader model =
         , style "padding" "0 30px"
         ]
         [ viewLogo
-        , headerIcon model (assetPrefix ++ "bow.svg") "/bows"
-        , headerIcon model (assetPrefix ++ "canvas.svg") "/canvas"
-        , headerIcon model (assetPrefix ++ "sign.svg") "/signs"
+        , headerIcon model (assetPrefix ++ "bow.svg") "/littlemakings/bows"
+        , headerIcon model (assetPrefix ++ "canvas.svg") "/littlemakings/canvas"
+        , headerIcon model (assetPrefix ++ "sign.svg") "/littlemakings/signs"
         ]
 
 
