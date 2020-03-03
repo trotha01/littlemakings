@@ -201,7 +201,7 @@ viewLogo =
     a
         [ style "padding-right" "30px"
         , style "cursor" "pointer"
-        , href "/home"
+        , href "/littlemakings"
         , style "text-decoration" "none"
         , style "color" "black"
         , style "font" "normal normal normal 1.4em cookie,cursive"
