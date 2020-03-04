@@ -175,9 +175,17 @@ viewSigns model =
 
 viewGallery : List String -> Html Msg
 viewGallery urls =
-    div []
+    div [ style "display" "flex", style "flex-wrap" "wrap" ]
         (urls
-            |> List.map (\url -> img [ src url, style "height" "300px", style "width" "300px" ] [])
+            |> List.map
+                (\url ->
+                    img
+                        [ src url
+                        , style "width" "300px"
+                        , style "flex" "1 1 auto"
+                        ]
+                        []
+                )
         )
 
 
@@ -185,10 +193,9 @@ viewHeader : Model -> Html Msg
 viewHeader model =
     div
         [ style "background-color" "rgb(227, 179, 202)"
-        , style "height" "1in"
+        , style "height" "60px"
         , style "display" "flex"
         , style "align-items" "center"
-        , style "padding" "0 30px"
         ]
         [ viewLogo
         , headerIcon model (assetPrefix ++ "bow.svg") "/littlemakings/bows"
@@ -204,7 +211,7 @@ viewLogo =
         , href "/littlemakings"
         , style "text-decoration" "none"
         , style "color" "black"
-        , style "font" "normal normal normal 1.4em cookie,cursive"
+        , style "font" "normal normal normal 1rem cookie,cursive"
         ]
         [ text "littlemakings" ]
 
@@ -226,8 +233,8 @@ headerIcon model url link =
         ]
         [ img
             [ src url
-            , style "height" "40px"
-            , style "width" "40px"
+            , style "height" "2rem"
+            , style "width" "2rem"
             , style "padding" "0px 20px"
             ]
             []
@@ -266,7 +273,7 @@ viewFullLogoBanner =
             , style "background-color" "rgba(0,0,0,0.4)"
             , style "height" "100%"
             , style "width" "100%"
-            , style "font" "6rem cookie, cursive"
+            , style "font" "3.5rem cookie, cursive"
             , style "color" "rgb(227, 179, 202)"
             , style "transform" "translate(-50%, -50%)"
             , style "display" "flex"
@@ -287,13 +294,14 @@ viewBanner url title pageUrl =
         , style "background-size" "cover"
         , style "text-align" "center"
         , style "cursor" "pointer"
-        , style "display" "block"
+        , style "display" "flex"
+        , style "align-items" "center"
         , style "opacity" "0.6"
         , href pageUrl
         ]
         [ h2
             [ style "color" "white"
-            , style "font-size" "15rem"
+            , style "font-size" "3.5rem"
             , style "position" "absolute"
             , style "width" "100%"
             , style "text-align" "center"
