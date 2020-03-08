@@ -5306,7 +5306,7 @@ var $author$project$Main$viewGallery = function (urls) {
 						[
 							$elm$html$Html$Attributes$src(url),
 							A2($elm$html$Html$Attributes$style, 'width', '300px'),
-							A2($elm$html$Html$Attributes$style, 'flex', '1 1 auto')
+							A2($elm$html$Html$Attributes$style, 'flex', '1 1 0')
 						]),
 					_List_Nil);
 			},
@@ -5346,8 +5346,8 @@ var $author$project$Main$headerIcon = F3(
 					_List_fromArray(
 						[
 							$elm$html$Html$Attributes$src(url),
-							A2($elm$html$Html$Attributes$style, 'height', '2rem'),
-							A2($elm$html$Html$Attributes$style, 'width', '2rem'),
+							A2($elm$html$Html$Attributes$style, 'height', '40px'),
+							A2($elm$html$Html$Attributes$style, 'width', '40px'),
 							A2($elm$html$Html$Attributes$style, 'padding', '0px 20px')
 						]),
 					_List_Nil)
@@ -5359,7 +5359,7 @@ var $author$project$Main$viewLogo = A2(
 	$elm$html$Html$a,
 	_List_fromArray(
 		[
-			A2($elm$html$Html$Attributes$style, 'padding-right', '30px'),
+			A2($elm$html$Html$Attributes$style, 'padding', '30px'),
 			A2($elm$html$Html$Attributes$style, 'cursor', 'pointer'),
 			$elm$html$Html$Attributes$href('/littlemakings'),
 			A2($elm$html$Html$Attributes$style, 'text-decoration', 'none'),
@@ -5484,8 +5484,15 @@ var $author$project$Main$viewFullLogoBanner = A2(
 					$elm$html$Html$Attributes$autoplay(true),
 					A2($elm$html$Html$Attributes$attribute, 'muted', 'true'),
 					$elm$html$Html$Attributes$id('car'),
+					A2($elm$html$Html$Attributes$style, 'width', '100%'),
 					A2($elm$html$Html$Attributes$style, 'height', '100%'),
-					A2($elm$html$Html$Attributes$style, 'position', 'absolute')
+					A2($elm$html$Html$Attributes$style, 'object-fit', 'cover'),
+					A2($elm$html$Html$Attributes$style, 'position', 'relative'),
+					A2($elm$html$Html$Attributes$style, 'top', '0px'),
+					A2($elm$html$Html$Attributes$style, 'bottom', '0px'),
+					A2($elm$html$Html$Attributes$style, 'left', '0px'),
+					A2($elm$html$Html$Attributes$style, 'right', '0px'),
+					A2($elm$html$Html$Attributes$style, 'margin', 'auto')
 				]),
 			_List_fromArray(
 				[

@@ -12,6 +12,7 @@ import Url
 
 
 assetPrefix =
+    -- "/assets/"
     "/littlemakings/assets/"
 
 
@@ -182,7 +183,7 @@ viewGallery urls =
                     img
                         [ src url
                         , style "width" "300px"
-                        , style "flex" "1 1 auto"
+                        , style "flex" "1 1 0"
                         ]
                         []
                 )
@@ -206,7 +207,7 @@ viewHeader model =
 
 viewLogo =
     a
-        [ style "padding-right" "30px"
+        [ style "padding" "30px"
         , style "cursor" "pointer"
         , href "/littlemakings"
         , style "text-decoration" "none"
@@ -233,8 +234,8 @@ headerIcon model url link =
         ]
         [ img
             [ src url
-            , style "height" "2rem"
-            , style "width" "2rem"
+            , style "height" "40px"
+            , style "width" "40px"
             , style "padding" "0px 20px"
             ]
             []
@@ -246,7 +247,6 @@ onPage model link =
 
 
 viewFullLogoBanner =
-    -- , viewBanner "/assets/car.mp4" "" ""
     div
         [ style "width" "100vw"
         , style "height" "60vh"
@@ -260,10 +260,15 @@ viewFullLogoBanner =
 
             -- , attribute "loop" "true"
             , id "car"
+            , style "width" "100%"
             , style "height" "100%"
-            , style "position" "absolute"
-
-            -- , style "top" "-100px"
+            , style "object-fit" "cover"
+            , style "position" "relative"
+            , style "top" "0px"
+            , style "bottom" "0px"
+            , style "left" "0px"
+            , style "right" "0px"
+            , style "margin" "auto"
             ]
             [ source [ src (assetPrefix ++ "car.mp4") ] [] ]
         , div
