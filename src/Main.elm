@@ -122,9 +122,9 @@ viewHome : Model -> List (Html Msg)
 viewHome model =
     [ viewHeader model
     , viewFullLogoBanner
-    , viewBanner (assetPrefix ++ "bow.webp") "Bows" "/littlemakings/bows"
-    , viewBanner (assetPrefix ++ "canvas.webp") "Canvas" "/littlemakings/canvas"
-    , viewBanner (assetPrefix ++ "sign.webp") "Signs" "/littlemakings/signs"
+    , viewBanner (assetPrefix ++ "bow2.png") "Bows" "/littlemakings/bows"
+    , viewBanner (assetPrefix ++ "canvas3.png") "Canvas" "/littlemakings/canvas"
+    , viewBanner (assetPrefix ++ "sign1.png") "Signs" "/littlemakings/signs"
     ]
 
 
@@ -133,21 +133,21 @@ viewBows model =
     [ viewHeader model
     , viewGallery
         [ assetPrefix ++ "bow1.png"
-        , assetPrefix ++ "bow2.webp"
-        , assetPrefix ++ "bow3.webp"
-        , assetPrefix ++ "bow4.webp"
-        , assetPrefix ++ "bow5.webp"
-        , assetPrefix ++ "bow6.webp"
-        , assetPrefix ++ "bow7.webp"
-        , assetPrefix ++ "bow8.webp"
-        , assetPrefix ++ "bow9.webp"
-        , assetPrefix ++ "bow10.webp"
-        , assetPrefix ++ "bow11.webp"
-        , assetPrefix ++ "bow12.webp"
-        , assetPrefix ++ "bow13.webp"
-        , assetPrefix ++ "bow14.webp"
-        , assetPrefix ++ "bow15.webp"
-        , assetPrefix ++ "bow16.webp"
+        , assetPrefix ++ "bow2.png"
+        , assetPrefix ++ "bow3.png"
+        , assetPrefix ++ "bow4.png"
+        , assetPrefix ++ "bow5.png"
+        , assetPrefix ++ "bow6.png"
+        , assetPrefix ++ "bow7.png"
+        , assetPrefix ++ "bow8.png"
+        , assetPrefix ++ "bow9.png"
+        , assetPrefix ++ "bow10.png"
+        , assetPrefix ++ "bow11.png"
+        , assetPrefix ++ "bow12.png"
+        , assetPrefix ++ "bow13.png"
+        , assetPrefix ++ "bow14.png"
+        , assetPrefix ++ "bow15.png"
+        , assetPrefix ++ "bow16.png"
         ]
     ]
 
@@ -156,11 +156,11 @@ viewCanvas : Model -> List (Html Msg)
 viewCanvas model =
     [ viewHeader model
     , viewGallery
-        [ assetPrefix ++ "canvas1.webp"
-        , assetPrefix ++ "canvas2.webp"
-        , assetPrefix ++ "canvas3.webp"
-        , assetPrefix ++ "canvas4.webp"
-        , assetPrefix ++ "canvas5.webp"
+        [ assetPrefix ++ "canvas1.png"
+        , assetPrefix ++ "canvas2.png"
+        , assetPrefix ++ "canvas3.png"
+        , assetPrefix ++ "canvas4.png"
+        , assetPrefix ++ "canvas5.png"
         ]
     ]
 
@@ -169,10 +169,10 @@ viewSigns : Model -> List (Html Msg)
 viewSigns model =
     [ viewHeader model
     , viewGallery
-        [ assetPrefix ++ "sign1.webp"
-        , assetPrefix ++ "sign2.webp"
-        , assetPrefix ++ "sign3.webp"
-        , assetPrefix ++ "sign4.webp"
+        [ assetPrefix ++ "sign1.png"
+        , assetPrefix ++ "sign2.png"
+        , assetPrefix ++ "sign3.png"
+        , assetPrefix ++ "sign4.png"
         ]
     ]
 

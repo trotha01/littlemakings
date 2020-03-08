@@ -5394,7 +5394,7 @@ var $author$project$Main$viewBows = function (model) {
 			$author$project$Main$viewHeader(model),
 			$author$project$Main$viewGallery(
 			_List_fromArray(
-				[$author$project$Main$assetPrefix + 'bow1.png', $author$project$Main$assetPrefix + 'bow2.webp', $author$project$Main$assetPrefix + 'bow3.webp', $author$project$Main$assetPrefix + 'bow4.webp', $author$project$Main$assetPrefix + 'bow5.webp', $author$project$Main$assetPrefix + 'bow6.webp', $author$project$Main$assetPrefix + 'bow7.webp', $author$project$Main$assetPrefix + 'bow8.webp', $author$project$Main$assetPrefix + 'bow9.webp', $author$project$Main$assetPrefix + 'bow10.webp', $author$project$Main$assetPrefix + 'bow11.webp', $author$project$Main$assetPrefix + 'bow12.webp', $author$project$Main$assetPrefix + 'bow13.webp', $author$project$Main$assetPrefix + 'bow14.webp', $author$project$Main$assetPrefix + 'bow15.webp', $author$project$Main$assetPrefix + 'bow16.webp']))
+				[$author$project$Main$assetPrefix + 'bow1.png', $author$project$Main$assetPrefix + 'bow2.png', $author$project$Main$assetPrefix + 'bow3.png', $author$project$Main$assetPrefix + 'bow4.png', $author$project$Main$assetPrefix + 'bow5.png', $author$project$Main$assetPrefix + 'bow6.png', $author$project$Main$assetPrefix + 'bow7.png', $author$project$Main$assetPrefix + 'bow8.png', $author$project$Main$assetPrefix + 'bow9.png', $author$project$Main$assetPrefix + 'bow10.png', $author$project$Main$assetPrefix + 'bow11.png', $author$project$Main$assetPrefix + 'bow12.png', $author$project$Main$assetPrefix + 'bow13.png', $author$project$Main$assetPrefix + 'bow14.png', $author$project$Main$assetPrefix + 'bow15.png', $author$project$Main$assetPrefix + 'bow16.png']))
 		]);
 };
 var $author$project$Main$viewCanvas = function (model) {
@@ -5403,7 +5403,7 @@ var $author$project$Main$viewCanvas = function (model) {
 			$author$project$Main$viewHeader(model),
 			$author$project$Main$viewGallery(
 			_List_fromArray(
-				[$author$project$Main$assetPrefix + 'canvas1.webp', $author$project$Main$assetPrefix + 'canvas2.webp', $author$project$Main$assetPrefix + 'canvas3.webp', $author$project$Main$assetPrefix + 'canvas4.webp', $author$project$Main$assetPrefix + 'canvas5.webp']))
+				[$author$project$Main$assetPrefix + 'canvas1.png', $author$project$Main$assetPrefix + 'canvas2.png', $author$project$Main$assetPrefix + 'canvas3.png', $author$project$Main$assetPrefix + 'canvas4.png', $author$project$Main$assetPrefix + 'canvas5.png']))
 		]);
 };
 var $elm$html$Html$h2 = _VirtualDom_node('h2');
@@ -5537,9 +5537,9 @@ var $author$project$Main$viewHome = function (model) {
 		[
 			$author$project$Main$viewHeader(model),
 			$author$project$Main$viewFullLogoBanner,
-			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'bow.webp', 'Bows', '/littlemakings/bows'),
-			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'canvas.webp', 'Canvas', '/littlemakings/canvas'),
-			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'sign.webp', 'Signs', '/littlemakings/signs')
+			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'bow2.png', 'Bows', '/littlemakings/bows'),
+			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'canvas3.png', 'Canvas', '/littlemakings/canvas'),
+			A3($author$project$Main$viewBanner, $author$project$Main$assetPrefix + 'sign1.png', 'Signs', '/littlemakings/signs')
 		]);
 };
 var $author$project$Main$viewSigns = function (model) {
@@ -5548,7 +5548,7 @@ var $author$project$Main$viewSigns = function (model) {
 			$author$project$Main$viewHeader(model),
 			$author$project$Main$viewGallery(
 			_List_fromArray(
-				[$author$project$Main$assetPrefix + 'sign1.webp', $author$project$Main$assetPrefix + 'sign2.webp', $author$project$Main$assetPrefix + 'sign3.webp', $author$project$Main$assetPrefix + 'sign4.webp']))
+				[$author$project$Main$assetPrefix + 'sign1.png', $author$project$Main$assetPrefix + 'sign2.png', $author$project$Main$assetPrefix + 'sign3.png', $author$project$Main$assetPrefix + 'sign4.png']))
 		]);
 };
 var $author$project$Main$pages = _List_fromArray(
