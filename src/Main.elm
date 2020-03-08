@@ -132,10 +132,11 @@ viewBows : Model -> List (Html Msg)
 viewBows model =
     [ viewHeader model
     , viewGallery
-        [ assetPrefix ++ "bow1.webp"
+        [ assetPrefix ++ "bow1.png"
         , assetPrefix ++ "bow2.webp"
         , assetPrefix ++ "bow3.webp"
         , assetPrefix ++ "bow4.webp"
+        , assetPrefix ++ "bow5.webp"
         , assetPrefix ++ "bow6.webp"
         , assetPrefix ++ "bow7.webp"
         , assetPrefix ++ "bow8.webp"
@@ -145,6 +146,8 @@ viewBows model =
         , assetPrefix ++ "bow12.webp"
         , assetPrefix ++ "bow13.webp"
         , assetPrefix ++ "bow14.webp"
+        , assetPrefix ++ "bow15.webp"
+        , assetPrefix ++ "bow16.webp"
         ]
     ]
 

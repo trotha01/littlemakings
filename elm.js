@@ -5394,7 +5394,7 @@ var $author$project$Main$viewBows = function (model) {
 			$author$project$Main$viewHeader(model),
 			$author$project$Main$viewGallery(
 			_List_fromArray(
-				[$author$project$Main$assetPrefix + 'bow1.webp', $author$project$Main$assetPrefix + 'bow2.webp', $author$project$Main$assetPrefix + 'bow3.webp', $author$project$Main$assetPrefix + 'bow4.webp', $author$project$Main$assetPrefix + 'bow6.webp', $author$project$Main$assetPrefix + 'bow7.webp', $author$project$Main$assetPrefix + 'bow8.webp', $author$project$Main$assetPrefix + 'bow9.webp', $author$project$Main$assetPrefix + 'bow10.webp', $author$project$Main$assetPrefix + 'bow11.webp', $author$project$Main$assetPrefix + 'bow12.webp', $author$project$Main$assetPrefix + 'bow13.webp', $author$project$Main$assetPrefix + 'bow14.webp']))
+				[$author$project$Main$assetPrefix + 'bow1.png', $author$project$Main$assetPrefix + 'bow2.webp', $author$project$Main$assetPrefix + 'bow3.webp', $author$project$Main$assetPrefix + 'bow4.webp', $author$project$Main$assetPrefix + 'bow5.webp', $author$project$Main$assetPrefix + 'bow6.webp', $author$project$Main$assetPrefix + 'bow7.webp', $author$project$Main$assetPrefix + 'bow8.webp', $author$project$Main$assetPrefix + 'bow9.webp', $author$project$Main$assetPrefix + 'bow10.webp', $author$project$Main$assetPrefix + 'bow11.webp', $author$project$Main$assetPrefix + 'bow12.webp', $author$project$Main$assetPrefix + 'bow13.webp', $author$project$Main$assetPrefix + 'bow14.webp', $author$project$Main$assetPrefix + 'bow15.webp', $author$project$Main$assetPrefix + 'bow16.webp']))
 		]);
 };
 var $author$project$Main$viewCanvas = function (model) {
